@@ -128,3 +128,9 @@ Private Key: A 到 E 共计执行了几次 dot 方法
 ![avatar](public/ecc_5.gif)
 
 到这里，我们可以这样理解椭圆曲线加密体系，有一个大质数作为最大值，有一个曲线方程，有一个公开的起点。私钥是数字 priv，公钥是起点被执行 priv 次 dot 方法的点。
+
+
+参考资料:
+
+[A (Relatively Easy To Understand) Primer on Elliptic Curve Cryptography](https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/)
+[(Very) Basic Intro To Elliptic Curve Cryptography](https://qvault.io/2020/09/17/very-basic-intro-to-elliptic-curve-cryptography/)
